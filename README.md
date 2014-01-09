@@ -11,10 +11,13 @@ Building
 ---------------------------
 The build system is [gradle](http://www.gradle.org). If you already have gradle installed, the project can be compiled simply by running:
 
-	:::sh
+	:::bash
 		gradle build
 		
-done
+If you do not have gradle installed, a gradle wrapper is included in the project (a self contained gradle instance). To build with the gradle wrapper:
+
+	:::bash
+		./gradle build
 
 
 Documentation
@@ -28,22 +31,3 @@ API
   Client Website registers a callback URL for receviing updates and messages.
   Client Webiste is assigned an Id, an API Key.
   Client Website includes the API Key in a http header with each api call.
-  
-
- 
-This is some very random Java:
- 
-    :::java
-        function foo() {
-            int poo = 1;
-                return;
-        }
- 
-Here is some random Python
- 
-    :::python
-        friends = ['john', 'pat', 'gary', 'michael']
-        for i, name in enumerate(friends):
-            print "iteration {iteration} is {name}".format(iteration=i, name=name)
- 
-Try your own!
