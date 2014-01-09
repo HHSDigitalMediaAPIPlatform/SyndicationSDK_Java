@@ -1,0 +1,1 @@
+syndicationApiUrl = "http://ctacdev.com:8090/Syndication"
