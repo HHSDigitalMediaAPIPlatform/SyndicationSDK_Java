@@ -11,8 +11,10 @@ Building
 ---------------------------
 The build system is [gradle](http://www.gradle.org). If you already have gradle installed, the project can be compiled simply by running:
 
-:::java
-	gradle build
+	:::sh
+		gradle build
+		
+done
 
 
 Documentation
@@ -28,12 +30,6 @@ API
   Client Website includes the API Key in a http header with each api call.
   
 
-This is a random Javascript:   
- 
-        :::javascript
-        if (window.name=='' || (window.name.indexOf('wicket') > -1 && window.name!='wicket-wicket:default')) {
-        window.location="register/wicket:pageMapName/wicket-0" + (window.location.hash != null ? window.location.hash : "");
-        }
  
 This is some very random Java:
  
