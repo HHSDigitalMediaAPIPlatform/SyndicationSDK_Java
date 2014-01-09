@@ -11,9 +11,9 @@ Building
 ---------------------------
 The build system is [gradle](http://www.gradle.org). If you already have gradle installed, the project can be compiled simply by running:
 
-~~~~python
-gradle build
-~~~~
+:::java
+	gradle build
+
 
 Documentation
 ---------------------------
