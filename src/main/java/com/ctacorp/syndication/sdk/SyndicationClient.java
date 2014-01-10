@@ -1,13 +1,14 @@
-package com.ctac.syndication.sdk;
+package com.ctacorp.syndication.sdk;
 
 import com.ctac.syndication.sdk.syndicationdatastructure.*;
-import com.ctac.syndication.sdk.syndicationdatastructure.MediaType;
+import com.ctacorp.syndication.sdk.syndicationdatastructure.*;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response;
 import java.awt.image.BufferedImage;
+import java.util.LinkedHashMap;
 
 /**
  * Primary class for interacting with the Syndication APIs.
@@ -74,7 +75,7 @@ public class SyndicationClient {
     }
 
     //java
-    public Tag[] getTagsForMediaId(Tag tag){
+    public Tag[] getTagsForMedia(MediaItem media){
         return null;
     }
 
@@ -124,7 +125,7 @@ public class SyndicationClient {
         return null;
     }
 
-    public MediaItem[] getAllMySubscriptions(){
+    public MediaItem[] getSubscriptions(){
         return null;
     }
 
@@ -221,5 +222,10 @@ public class SyndicationClient {
             return false;
         }
         return true;
+    }
+
+    private SyndicationResponse api(String url, LinkedHashMap<String, String> params){
+
+        return null;
     }
 }

@@ -1,4 +1,4 @@
-package com.ctac.syndication.sdk.syndicationdatastructure;
+package com.ctacorp.syndication.sdk.syndicationdatastructure;
 
 /**
  * Created with IntelliJ IDEA.

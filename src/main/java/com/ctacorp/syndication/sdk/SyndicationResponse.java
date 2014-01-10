@@ -1,4 +1,4 @@
-package com.ctac.syndication.sdk;
+package com.ctacorp.syndication.sdk;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,6 @@ import java.util.ArrayList;
  * Time: 1:03 PM
  */
 public class SyndicationResponse {
-    String format; //what is this?
     int status                      = 200;
     ArrayList<Message> messages;
     String results;

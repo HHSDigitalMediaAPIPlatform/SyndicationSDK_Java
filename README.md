@@ -32,6 +32,15 @@ Documentation is in JavaDoc format, and can be generated as needed with gradle:
 		
 Documentation files are created in projectRoot/build/docs.
 
+Unit Testing
+---------------------------
+Unit tests are provided with the SDK. They can be executed with the same gradle build system used for building. Before running the unit testing suite, the `syndicationApiUrl` property should be configured in the `conf/testProperties.groovy` file to reflect the location of your Syndication API instance. Once confiured, run the tests with:
+
+	:::bash
+		gradle test
+
+Test reports are generated in `build/reports/tests/index.html`. Testing requires an active internet connection, and an accessible syndication instance.
+
 API
 ---------------------------
   - Client Website is registered to a CMS Manager belonging to Syndication.

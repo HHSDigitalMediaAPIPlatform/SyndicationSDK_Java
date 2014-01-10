@@ -1,4 +1,4 @@
-import com.ctac.syndication.sdk.SyndicationClient
+import com.ctacorp.syndication.sdk.SyndicationClient
 import spock.lang.*
 
 class HelloWorldSpec extends Specification {

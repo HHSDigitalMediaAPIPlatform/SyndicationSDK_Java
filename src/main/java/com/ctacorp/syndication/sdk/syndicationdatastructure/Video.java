@@ -1,4 +1,4 @@
-package com.ctac.syndication.sdk.syndicationdatastructure;
+package com.ctacorp.syndication.sdk.syndicationdatastructure;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,8 +6,8 @@ package com.ctac.syndication.sdk.syndicationdatastructure;
  * Date: 1/9/14
  * Time: 12:39 PM
  */
-public class Widget extends MediaItem{
+public class Video extends MediaItem {
+    public int duration;
     public int width;
     public int height;
-    public String code;
 }
