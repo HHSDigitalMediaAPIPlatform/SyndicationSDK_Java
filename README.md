@@ -41,6 +41,21 @@ Unit tests are provided with the SDK. They can be executed with the same gradle 
 
 Test reports are generated in `build/reports/tests/index.html`. Testing requires an active internet connection, and an accessible syndication instance.
 
+Auto Testing
+---------------------------
+If you are doing active development on the plugin and would like to enable auto-testing functionality (run tests every time code changes), follow the below instructions
+
+- Install [fswatch](https://github.com/alandipert/fswatch) on OS X
+- or [inotify-tools](https://github.com/rvoicilas/inotify-tools/wiki) on Linux
+- From within the project root, run: 
+
+	:::bash
+		fswatch src testingScripts/autoTest.sh
+		
+(ensure that autoTest.sh is executable: `chmod +x testingScripts/autoTest.sh`)
+
+To get a live updates to the test reports in a browser, try the [Auto-Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/) plugin for firefox. Install it, and point it to `syndicationSDKDirectory/build/reports/tests/index.html`, and then visit that page in the browser. Every time the test reports are updated by the gradle/autoTest/fswatch combo, the page will automatically refresh to show the results of the testing phase.
+
 API
 ---------------------------
   - Client Website is registered to a CMS Manager belonging to Syndication.

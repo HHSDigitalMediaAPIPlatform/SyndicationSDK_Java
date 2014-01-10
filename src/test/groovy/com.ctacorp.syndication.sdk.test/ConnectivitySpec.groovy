@@ -1,7 +1,9 @@
+package com.ctacorp.syndication.sdk.test
+
 import com.ctacorp.syndication.sdk.SyndicationClient
 import spock.lang.*
 
-class HelloWorldSpec extends Specification {
+class ConnectivitySpec extends Specification {
     SyndicationClient client
     def config
 

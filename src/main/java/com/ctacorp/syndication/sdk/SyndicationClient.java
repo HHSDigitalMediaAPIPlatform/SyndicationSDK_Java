@@ -1,6 +1,5 @@
 package com.ctacorp.syndication.sdk;
 
-import com.ctac.syndication.sdk.syndicationdatastructure.*;
 import com.ctacorp.syndication.sdk.syndicationdatastructure.*;
 
 import javax.ws.rs.client.Client;
@@ -30,6 +29,8 @@ public class SyndicationClient {
     }
 
     public MediaType[] getAllMediaTypes(){
+
+
         return null;
     }
 
@@ -216,7 +217,7 @@ public class SyndicationClient {
 
     public boolean testConnectionTo(String url){
         Client client = ClientBuilder.newClient();
-        WebTarget target = client.target(url).path("/");
+        WebTarget target = client.target(url).path("");
         Response response = target.request().get();
         if(response.getStatus() != 200){
             return false;
@@ -224,7 +225,8 @@ public class SyndicationClient {
         return true;
     }
 
-    private SyndicationResponse api(String url, LinkedHashMap<String, String> params){
+    private SyndicationResponse api(String path, LinkedHashMap<String, String> params){
+        String url = syndicationApiUrl + path;
 
         return null;
     }

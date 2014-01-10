@@ -8,4 +8,12 @@ package com.ctacorp.syndication.sdk.syndicationdatastructure;
  */
 public class MediaType {
     public String name;
+
+    public MediaType(String name){
+        this.name = name;
+    }
+
+    public String toString(){
+        return name;
+    }
 }
