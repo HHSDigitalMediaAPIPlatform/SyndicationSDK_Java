@@ -1,13 +1,22 @@
 package com.ctacorp.syndication.sdk;
 
+import com.ctacorp.syndication.sdk.exception.InvalidRequestException;
+import com.ctacorp.syndication.sdk.jsonparsing.*;
 import com.ctacorp.syndication.sdk.syndicationdatastructure.*;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.RestTemplate;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.Response;
+import org.apache.http.client.utils.URIBuilder;
+
 import java.awt.image.BufferedImage;
-import java.util.LinkedHashMap;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.Date;
+import java.util.List;
 
 /**
  * Primary class for interacting with the Syndication APIs.
@@ -29,33 +38,58 @@ public class SyndicationClient {
     }
 
     public MediaType[] getAllMediaTypes(){
+        URI uri = buildURI(syndicationApiUrl + "/resources/mediaTypes.json");
+        RawMediaTypeResponse raw = (RawMediaTypeResponse) api(uri, RawMediaTypeResponse.class);
 
-
-        return null;
+        return raw.results;
     }
 
     public Organization[] getAllOrganizations(){
-        return null;
+        URI uri = buildURI(syndicationApiUrl + "/resources/organizations.json");
+        RawOrganizationResponse raw = (RawOrganizationResponse) api(uri, RawOrganizationResponse.class);
+        return raw.results;
     }
 
-    public Organization getOrganizationById(long id){
-        return null;
+    public Organization getOrganizationById(long id) throws InvalidRequestException {
+        URI uri = buildURI(syndicationApiUrl + "/resources/organizations/"+id+".json");
+        RawApiResponse rawResp = api(uri, RawOrganizationResponse.class);
+        if(rawResp.meta.status == 400){
+            throw new InvalidRequestException("The server responded with a 400 error, details: "+rawResp);
+        }
+        RawOrganizationResponse raw = (RawOrganizationResponse) rawResp;
+        return raw.results[0];
     }
 
     public Campaign[] getAllCampaigns(){
-        return null;
+        URI uri = buildURI(syndicationApiUrl + "/resources/campaigns.json");
+        RawCampaignResponse raw = (RawCampaignResponse) api(uri, RawCampaignResponse.class);
+        return raw.results;
     }
 
-    public Campaign getCampaignById(long id){
-        return null;
+    public Campaign getCampaignById(long id) throws InvalidRequestException {
+        URI uri = buildURI(syndicationApiUrl + "/resources/campaigns/"+id+".json");
+        RawApiResponse rawResp = api(uri, RawCampaignResponse.class);
+        if(rawResp.meta.status == 400){
+            throw new InvalidRequestException("The server responded with a 400 error, details: "+rawResp);
+        }
+        RawCampaignResponse raw = (RawCampaignResponse) rawResp;
+        return raw.results[0];
     }
 
     public Language[] getAllLanguages(){
-        return null;
+        URI uri = buildURI(syndicationApiUrl + "/resources/languages.json");
+        RawLanguageResponse raw = (RawLanguageResponse) api(uri, RawLanguageResponse.class);
+        return raw.results;
     }
 
-    public Language getLanguageById(long id){
-        return null;
+    public Language getLanguageById(long id) throws InvalidRequestException {
+        URI uri = buildURI(syndicationApiUrl + "/resources/languages/"+id+".json");
+        RawApiResponse rawResp = api(uri, RawLanguageResponse.class);
+        if(rawResp.meta.status == 400){
+            throw new InvalidRequestException("The server responded with a 400 error, details: "+rawResp);
+        }
+        RawLanguageResponse raw = (RawLanguageResponse) rawResp;
+        return raw.results[0];
     }
 
     public Tag getTagById(long id){
@@ -215,19 +249,60 @@ public class SyndicationClient {
 
     //Helper Methods ---------------------------------------------------------
 
-    public boolean testConnectionTo(String url){
-        Client client = ClientBuilder.newClient();
-        WebTarget target = client.target(url).path("");
-        Response response = target.request().get();
-        if(response.getStatus() != 200){
-            return false;
+    public boolean ping(String url){
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity resp = restTemplate.getForEntity(url, null);
+        if(resp.getStatusCode().value() == 200){
+            return true;
+        } else{
+            System.out.println("Tried to get to "+url+" but couldn't find it.");
+            System.out.println(resp);
         }
-        return true;
+        return false;
     }
 
-    private SyndicationResponse api(String path, LinkedHashMap<String, String> params){
-        String url = syndicationApiUrl + path;
+    private RawApiResponse api(URI uri, Class theClass){
+        RestTemplate restTemplate = new RestTemplate();
+        restTemplate.setErrorHandler(new RestErrorHandler());
+        RawApiResponse raw = null;
 
+        try{
+            raw = (RawApiResponse)restTemplate.getForObject(uri, theClass);
+        } catch(HttpClientErrorException e){
+            switch(e.getStatusCode().value()){
+                case 404:
+                    Message message = new Message();
+                    message.errorCode = 404;
+                    message.errorMessage = "Server Resource not found!";
+                    message.errorDetail = "404 occurred on: "+new Date()+" on resource: "+uri;
+                    message.userMessage = "The api attempted to call a server resource that was not found. " +
+                        "This may indicate that the server URL is incorrect, that this is the wrong version client for the specified server, " +
+                        "or that something on the server has changed unexpectedly.";
+                    raw = new RawErrorResponse(404, message);
+                    break;
+            }
+        }
+
+        return raw;
+    }
+
+    private URI buildURI(String url){
+        try {
+            return new URI(url);
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private URI buildURI(String url, List<NameValuePair> params){
+        try {
+            URIBuilder urib = new URIBuilder(url);
+            urib.addParameters(params);
+            return urib.build();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
         return null;
     }
 }

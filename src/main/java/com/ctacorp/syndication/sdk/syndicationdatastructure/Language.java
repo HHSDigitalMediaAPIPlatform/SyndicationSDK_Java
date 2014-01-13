@@ -1,5 +1,7 @@
 package com.ctacorp.syndication.sdk.syndicationdatastructure;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Steffen Gates
@@ -7,7 +9,7 @@ package com.ctacorp.syndication.sdk.syndicationdatastructure;
  * Time: 2:27 PM
  */
 public class Language {
-    long id;
-    String name;
-    String code;
+    public long id;
+    public String name;
+    public String value;
 }

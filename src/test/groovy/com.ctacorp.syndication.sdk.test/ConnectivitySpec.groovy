@@ -16,13 +16,13 @@ class ConnectivitySpec extends Specification {
         when: "an outside world address"
             String url = "http://www.example.com"
         then: "the client should be able to connect to it"
-            client.testConnectionTo(url) == true
+            client.ping(url) == true
     }
 
     def "the client should be able to see the syndication api"() {
         when: "the address to a syndication api"
-            String url = config.syndicationApiUrl
+            String url = config.syndicationApiUrl + "/resources/media.json"
         then: "the client should be able to connect to it"
-            client.testConnectionTo(url) == true
+            client.ping(url) == true
     }
 }
