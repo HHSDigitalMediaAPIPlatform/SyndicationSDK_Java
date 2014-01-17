@@ -119,4 +119,48 @@ class ApiFunctionalitySpec extends Specification {
         and: "language should be null"
             language == null
     }
+
+    def "getting a tag by id should return a tag"(){
+        when: "getTagById is called"
+            def tag = client.getTagById(1)
+        then: "the tag should not be null"
+            tag != null
+        and: "the tag should have data"
+            tag.name != null
+            tag.id != null
+            tag.language != null
+    }
+
+//    def "getting related tags by id should return the set of related tags"(){
+//        when: "getRelatedTagsById is called"
+//            def tags = client.getRelatedTagsById(1)
+//        then: "the tags should not be null"
+//            tags != null
+//        and: "there should be at least 1 tag"
+//            tags.length > 0
+//    }
+
+    //Todo getting tag by invalid id
+
+    //todo tags tests here
+
+    //todo searchMedia here
+
+    def "getting a media item by id should return a media item"(){
+        when: "getMediaById is called"
+            def mediaItem = client.getMediaById(1)
+        then: "the media item should not be null"
+            mediaItem != null
+        and: "there should be data in the required fields"
+            mediaItem.id == id
+            mediaItem.name != null
+            mediaItem.sourceUrl != null
+            mediaItem.dateAuthored != null
+            mediaItem.dateUpdated != null
+            mediaItem.language != null
+            mediaItem.organization != null
+
+        where:
+            id = 1
+    }
 }

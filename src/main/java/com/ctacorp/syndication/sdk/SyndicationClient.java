@@ -90,11 +90,18 @@ public class SyndicationClient {
         return raw.results[0];
     }
 
-    public Tag getTagById(long id){
-        return null;
+    public Tag getTagById(long id) throws InvalidRequestException {
+        URI uri = buildURI(syndicationApiUrl + "/resources/tags/" + id + ".json");
+        RawApiResponse rawResp = api(uri, RawTagResponse.class);
+        if(rawResp.meta.status == 400){
+            throw new InvalidRequestException("The server responded with a 400 error, details: "+rawResp);
+        }
+        RawTagResponse raw = (RawTagResponse) rawResp;
+        return raw.results[0];
     }
 
     public Tag[] getRelatedTagsById(long id){
+        //wait for list to rework the tags API stuff
         return null;
     }
 
@@ -112,12 +119,19 @@ public class SyndicationClient {
         return null;
     }
 
-    public MediaItem[] searchMediaMetadata(String query){
+    //formerly searchMediaMetaData
+    public MediaItem[] searchMedia(String query){
         return null;
     }
 
-    public MediaItem getMediaById(long id){
-        return null;
+    public MediaItem getMediaById(long id) throws InvalidRequestException {
+        URI uri = buildURI(syndicationApiUrl + "/resources/media/" + id + ".json");
+        RawApiResponse rawResp = api(uri, RawMediaResponse.class);
+        if(rawResp.meta.status == 400){
+            throw new InvalidRequestException("The server responded with a 400 error, details: "+rawResp);
+        }
+        RawMediaResponse raw = (RawMediaResponse) rawResp;
+        return raw.results[0];
     }
 
     public MediaItem getMediaByUrl(String url){
