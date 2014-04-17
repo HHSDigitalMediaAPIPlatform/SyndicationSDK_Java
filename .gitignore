@@ -4,3 +4,6 @@ build/
 out/
 .DS_Store
 .gradle/
+.gradletasknamecache
+syndicationsdk_java.ipr
+syndicationsdk_java.iws

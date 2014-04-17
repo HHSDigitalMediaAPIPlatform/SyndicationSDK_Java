@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/1.11/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="GradleUISettings">
+    <setting name="root" />
+  </component>
+  <component name="GradleUISettings2">
+    <setting name="root" />
+  </component>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value />
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default (3)" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/syndicationsdk_java.iml" filepath="$PROJECT_DIR$/syndicationsdk_java.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: activation-1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: hamcrest-core-1.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-annotations-2.1.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.5/ef5b4f8e9aa1a822c2789397cee7d22bc7e96399/jackson-annotations-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.5/b93921aed76a7809b918c13aa391c4eda814b8f9/jackson-annotations-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-core-2.1.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.5/d9fa48b8f71caa6b9a630749d6f5436f205167c4/jackson-core-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.5/1a83d3afacc0eb506c66f354f4826b5f5f86b8f7/jackson-core-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-core-asl-1.7.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.7.1/6c11953d1094b38e31c8ac7cda559db601caab1e/jackson-core-asl-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.7.1/2296448a550f17c0dcee4bcf435464b63bbf377a/jackson-core-asl-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-databind-2.1.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.5/47efd9a05d83ef2b86dbde27bb659627a32f0690/jackson-databind-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.5/5159372fd6f0c3738dd6eac70f13e1770a11ae2f/jackson-databind-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-datatype-joda-2.1.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.1.5/6074d7f48dea5fa92b1ba043137f9c4c3fb24e19/jackson-datatype-joda-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.1.5/50a7b94ed91ef78160d61b0ab9ea3c1e8e46b12/jackson-datatype-joda-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-jaxrs-1.7.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-jaxrs/1.7.1/28dacb717bedc4f6edd9ca088448ef69d4dcd856/jackson-jaxrs-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-jaxrs/1.7.1/c30c26c1dc92b87368fa72dca066a3dc10663c27/jackson-jaxrs-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-mapper-asl-1.7.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.7.1/6d48962876433e5401ff0133fc0e2efbd01ea7ac/jackson-mapper-asl-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.7.1/3cb146ebe03c0204a4a53627c9f6798a1b2da242/jackson-mapper-asl-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jackson-xc-1.7.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-xc/1.7.1/5eb6018a46439ae23afa3699005277ca2a0f7b47/jackson-xc-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-xc/1.7.1/2b946353ca9d55595ad4ce0574d965b9f01a9f88/jackson-xc-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.1/535d8122e37c34c7880f5fca6b87701abe7a0b6a/java-client-v2-alpha-0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.10/9201ddcca56f9fd6e0b94832d7e7f58137e53ce8/java-client-v2-alpha-0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.11/680886ddcd308466cb590c3525d2506baacd20fc/java-client-v2-alpha-0.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.12/137b1684096375456070d57109bb7d0d96f1614c/java-client-v2-alpha-0.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.13/5cf7797523a57342ac5a68c6c33c818422f6c2a2/java-client-v2-alpha-0.13.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.3/bf6bd012f43d7314a6881d2f44315f758c88651e/java-client-v2-alpha-0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.4/df1c3a0744a91abd9f48c7c7c040e1877bc49ae3/java-client-v2-alpha-0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.5/92cd2a57d009f7fe7dbff69c80bd9fad4d4cf795/java-client-v2-alpha-0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.6/b801f603cfb083d894a8289a4a6d279044f4b498/java-client-v2-alpha-0.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.7/cc2794022c379aefd2cbb9c379289084750f01ac/java-client-v2-alpha-0.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.8/704724707917db011e899ced9515629905217807/java-client-v2-alpha-0.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/../swagger-codegen/generated-code/java/src/main/java" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: java-client-v2-alpha-0.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctacorp.syndication/java-client/v2-alpha-0.9/34323b0f84d8a640cd7b70e299e7dd118fba666c/java-client-v2-alpha-0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/../swagger-codegen/generated-code/java/src/main/java" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jaxb-api-2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.2/aeb3021ca93dde265796d82015beecdcff95bf09/jaxb-api-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.2/3016adffd4777795f8aebce4b97e159539e3ad36/jaxb-api-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jaxb-impl-2.2.3-1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.2.3-1/56baae106392040a45a06d4a41099173425da1e6/jaxb-impl-2.2.3-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.2.3-1/c7853ba682b292a2f9d831af145cadc5313a7af1/jaxb-impl-2.2.3-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jersey-client-1.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.7/1ae9753423dd83761b39c9eefbacc190f174d41b/jersey-client-1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.7/1da501e5364856a93fe660e96ec4eec6f79f37f6/jersey-client-1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jersey-core-1.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.7/4a0a99fb9ff184d3418c8ea59c6c5c27d7fa30ef/jersey-core-1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.7/686436914e0462f7d478f7a3b176558e0a8532c5/jersey-core-1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jersey-json-1.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-json/1.7/48ddfb200a36ee48e193ddc8641009d38a955b14/jersey-json-1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-json/1.7/e6b284aa3bb30fbcd2ab37fde9a86fe7232e7097/jersey-json-1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: jettison-1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/1a01a2a1218fcf9faa2cc2a6ced025bdea687262/jettison-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/6e5ebf802c909bcef2d7e3275c64b474467353b5/jettison-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: joda-time-2.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/56498efd17752898cfcc3868c1b6211a07b12b8f/joda-time-2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/ecd8588d8ce0963eb443de31d5fea29e3205f160/joda-time-2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: junit-4.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: stax-api-1.0-2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/dd58a0151c110e27c6c18abd45b01792f46d3fcd/stax-api-1.0-2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: stax-api-1.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: unresolved_dependency___com_ctacorp_syndication_java_client_v2_alpha_0_5">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.5" />
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.5" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: unresolved_dependency___com_ctacorp_syndication_java_client_v2_alpha_0_7">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.7" />
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.7" />
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.7" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: unresolved_dependency___com_ctacorp_syndication_java_client_v2_alpha_0_9">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.9" />
+        <root url="file://$APPLICATION_HOME_DIR$/bin/unresolved dependency - com.ctacorp.syndication java-client v2-alpha-0.9" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
+
