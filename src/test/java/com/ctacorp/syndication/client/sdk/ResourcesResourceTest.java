@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNotNull;
 public class ResourcesResourceTest {
 
     @Test
-    public void testGetTagTypes() throws Exception {
+    public void testGetResources() throws Exception {
 
         Resources resources = new ResourcesApi().getResources("health");
         assertNotNull(resources);

@@ -1,7 +1,7 @@
 project.group = "com.ctacorp.syndication"
 //noinspection GrUnresolvedAccess
 project.ext.archivesBaseName = "syndication-java-sdk"
-project.version = "v2-alpha-0.1"
+project.version = "v2-alpha"
 
 apply plugin: 'idea'
 apply plugin: 'maven'
@@ -17,13 +17,17 @@ sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
 dependencies {
-
     testCompile 'junit:junit:4.11'
 
-    compile 'com.ctacorp.syndication:java-client:v2-alpha-0.13'
+    compile fileTree(dir: 'libs', include: '*.jar')
 
+    compile 'org.springframework:spring-core:4.0.3.RELEASE'
     compile 'com.sun.jersey:jersey-core:1.7'
     compile 'com.sun.jersey:jersey-client:1.7'
     compile 'com.sun.jersey:jersey-json:1.7'
-
+    compile 'com.fasterxml.jackson.core:jackson-core:2.1.4'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.1.4'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.1.4'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-joda:2.1.5'
+    compile 'joda-time:joda-time:2.3'
 }

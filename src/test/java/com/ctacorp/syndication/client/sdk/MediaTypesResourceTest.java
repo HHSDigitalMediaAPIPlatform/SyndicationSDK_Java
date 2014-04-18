@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNotNull;
 public class MediaTypesResourceTest {
 
     @Test
-    public void testGetTagTypes() throws Exception {
+    public void testGetMediaTypes() throws Exception {
 
         MediaTypes mediaTypes = new ResourcesApi().getMediaTypes();
         assertNotNull(mediaTypes);

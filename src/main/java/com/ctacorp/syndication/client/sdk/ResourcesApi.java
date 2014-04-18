@@ -2,6 +2,10 @@ package com.ctacorp.syndication.client.sdk;
 
 import com.ctacorp.syndication.client.common.ApiException;
 import com.ctacorp.syndication.client.model.*;
+import org.springframework.core.io.support.PropertiesLoaderUtils;
+
+import java.io.IOException;
+import java.util.Properties;
 
 public class ResourcesApi {
 
@@ -9,7 +13,13 @@ public class ResourcesApi {
     private Pagination pagination = new Pagination();
 
     public ResourcesApi() {
-        setBasePath(Constants.SYNDICATION_API_URL);
+        Properties properties = null;
+        try {
+            properties = PropertiesLoaderUtils.loadAllProperties("sdk.properties");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        setBasePath((String) properties.get("api.base.url"));
     }
 
     public void setBasePath(String basePath) {
@@ -120,6 +130,75 @@ public class ResourcesApi {
             request.getLanguageId(), request.getLanguageName(), request.getLanguageIsoCode(), request.getHash(), request.getHashContains(),
             request.getSourceId(), request.getSourceName(), request.getSourceNameContains(), request.getSourceAcronym(),
             request.getSourceAcronymContains(), request.getTagIds(), request.getRestrictToSet());
+    }
+
+    public MediaItems getMostPopularMediaItems() throws ApiException {
+        return getMostPopularMediaItems(pagination);
+    }
+
+    public MediaItems getMostPopularMediaItems(Pagination pagination) throws ApiException {
+        return resourcesApi.getMostPopularMedia(pagination.getMax(), pagination.getOffset());
+    }
+
+    public MediaItems searchMedia(String query) throws ApiException {
+        return searchMedia(query, pagination);
+    }
+
+    public MediaItems searchMedia(String query, Pagination pagination) throws ApiException {
+        return resourcesApi.searchMedia(query, pagination.getMax(), pagination.getOffset(), pagination.getSort());
+    }
+
+    public MediaItems getMediaById(Long id) throws ApiException {
+        return resourcesApi.getMediaById(id);
+    }
+
+    public String getMediaContentById(Long id) throws ApiException {
+        return resourcesApi.getMediaContentById(id);
+    }
+
+    public String getMediaPreviewById(Long id, ImageProperties imageProperties) throws ApiException {
+        return resourcesApi.getMediaPreviewById(id, imageProperties.getImageFloat(), imageProperties.getImageMargin(), imageProperties.getPreviewSize(), imageProperties.getWidth(), imageProperties.getHeight(), imageProperties.getCrop());
+    }
+
+    public String getMediaPreviewById(Long id) throws ApiException {
+        return getMediaPreviewById(id, new ImageProperties());
+    }
+
+    public EmbedCode getMediaEmbedById(Long id) throws ApiException {
+        return getMediaEmbedById(id, new EmbedProperties());
+    }
+
+    public EmbedCode getMediaEmbedById(Long id, EmbedProperties embedProperties) throws ApiException {
+        return resourcesApi.getMediaEmbedById(id, embedProperties.getFlavor(), embedProperties.getWidth(), embedProperties.getHeight(), embedProperties.getIframeName(), embedProperties.getExcludeJquery(), embedProperties.getExcludeDiv(), embedProperties.getDivId());
+    }
+
+    public Ratings getMediaRatingsById(Long id) throws ApiException {
+        return resourcesApi.getMediaRatingsById(id);
+    }
+
+    public MediaItems getRelatedMediaById(Long id) throws ApiException {
+        return getRelatedMediaById(id, pagination);
+    }
+
+    public MediaItems getRelatedMediaById(Long id, Pagination pagination) throws ApiException {
+        return resourcesApi.getRelatedMediaById(id, pagination.getMax(), pagination.getOffset(), pagination.getSort());
+    }
+
+    public SyndicatedMediaItems getMediaSyndicateById(Long id, SyndicateProperties syndicateProperties) throws ApiException {
+        return resourcesApi.getMediaSyndicateById(id, syndicateProperties.getStripStyles(),
+                syndicateProperties.getStripScripts(), syndicateProperties.getStripImages(),
+                syndicateProperties.getStripBreaks(), syndicateProperties.getStripClasses(),
+                syndicateProperties.getFontsize(), syndicateProperties.getImageFloat(),
+                syndicateProperties.getImageMargin(), syndicateProperties.getAutoplay(),
+                syndicateProperties.getRel(), syndicateProperties.getCssClass());
+    }
+
+    public SyndicatedMediaItems getMediaSyndicateById(Long id) throws ApiException {
+        return getMediaSyndicateById(id, new SyndicateProperties());
+    }
+
+    public YoutubeMetadata getMediaYoutubeMetaDataById(Long id) throws ApiException {
+        return resourcesApi.getMediaYoutubeMetaDataById(id);
     }
 
     public void setPagination(Pagination pagination) {
