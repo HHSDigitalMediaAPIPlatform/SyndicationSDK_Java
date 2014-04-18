@@ -59,145 +59,132 @@ By default, the HHS Media Services API's base URL is set to [http://ctacdev.com:
 
 The following example illustrates how to use the SDK's REST client interface:
 
-	
-	import com.ctacorp.syndication.client.common.ApiException;
-	import com.ctacorp.syndication.client.model.Campaign;
-	import com.ctacorp.syndication.client.model.Campaigns;
-	import com.ctacorp.syndication.client.sdk.ResourcesApi;
-	import com.ctacorp.syndication.client.sdk.Pagination;
-	
-	import java.util.List;
-	
-	public class Test {
-	
-	    public void testIt() {
-	
-	        ResourcesApi resourcesApi = new ResourcesApi();
-	
-	        resourcesApi.setBasePath("http://ctacdev.com:8090/Syndication/api/v2");
-	
-	        Pagination pagination = new Pagination();
-	        pagination.setMax(10);
-	        pagination.setSort("ASC");
-	        pagination.setOffset(0);
-	        resourcesApi.setPagination(pagination);
-	
-	        try {
-	
-	            Campaigns campaigns = resourcesApi.getCampaigns();
-	            List<Campaign> results = campaigns.getResults();
-	
-	            for (Campaign campaign : results) {
-	                System.out.println(campaign);
-	            }
-	
-	        } catch (ApiException e) {
-	            e.printStackTrace();
-	        }
-	    }
-	}
- 
-##### Available Client API Methods
- 
- 
-*** com.ctacorp.syndication.client.sdk.ResourcesApi ***
+```java
+import com.ctacorp.syndication.client.common.ApiException;
+import com.ctacorp.syndication.client.model.Campaign;
+import com.ctacorp.syndication.client.model.Campaigns;
+import com.ctacorp.syndication.client.sdk.ResourcesApi;
+import com.ctacorp.syndication.client.sdk.Pagination;
 
+import java.util.List;
+
+public class Test {
+
+    public void testIt() {
+
+        ResourcesApi resourcesApi = new ResourcesApi();
+
+        resourcesApi.setBasePath("http://ctacdev.com:8090/Syndication/api/v2");
+
+        Pagination pagination = new Pagination();
+        pagination.setMax(10);
+        pagination.setSort("ASC");
+        pagination.setOffset(0);
+        resourcesApi.setPagination(pagination);
+
+        try {
+
+            Campaigns campaigns = resourcesApi.getCampaigns();
+            List<Campaign> results = campaigns.getResults();
+
+            for (Campaign campaign : results) {
+                System.out.println(campaign);
+            }
+
+        } catch (ApiException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+##### Available Client API Methods
+
+
+`com.ctacorp.syndication.client.sdk.ResourcesApi`
+```java
 	Campaigns getCampaignById(Long id)
-	 
+
 	Campaigns getCampaigns()
-	 
+
 	Campaigns getCampaigns(Pagination pagination)
-	
-	 
+
 	Languages getLanguageById(Long id)
-	 
+
 	Languages getLanguages()
-	 
+
 	Languages getLanguages(Pagination pagination)
-	
-	 		
+
 	String getMediaContentById(Long id)
-	
+
 	String getMediaPreviewById(Long id)
-	 
+
 	String getMediaPreviewById(Long id, ImageProperties imageProperties)
-	
-	 
+
 	EmbedCode getMediaEmbedById(Long id)
-	 
+
 	EmbedCode getMediaEmbedById(Long id, EmbedProperties embedProperties)
-	
-	 
+
 	Ratings getMediaRatingsById(Long id)
-	
-	 
+
 	SyndicatedMediaItems getMediaSyndicateById(Long id)
-	 
+
 	SyndicatedMediaItems getMediaSyndicateById(Long id, SyndicateProperties syndicateProperties)
-	 
-	
+
 	MediaTypes getMediaTypes()
-	
-	
+
 	YoutubeMetadata getMediaYoutubeMetaDataById(Long id)
-	
-	 
+
 	MediaItems getMostPopularMediaItems()
-	 
+
 	MediaItems getMostPopularMediaItems(Pagination pagination)
-	 
+
 	MediaItems getRelatedMediaById(Long id)
-	 
+
 	MediaItems getRelatedMediaById(Long id, Pagination pagination)
-	
+
 	MediaItems searchMedia(String query)
-	 
+
 	MediaItems searchMedia(String query, Pagination pagination)
-	
+
 	MediaItems getMediaById(Long id)
-	
+
 	MediaItems getMedia(GetMediaRequest request)
-	 
+
 	MediaItems getMedia(GetMediaRequest request, Pagination pagination)
-	 
+
 	MediaItems getMediaByCampaignId(Long id)
-	 
+
 	MediaItems getMediaByCampaignId(Long id, Pagination pagination)
-	 
+
 	MediaItems getMediaByTagId(Long id)
-	 
+
 	MediaItems getMediaByTagId(Long id, Pagination pagination)
-			 
-	 
+
 	Resources getResources(String query)
-	
-	 
+
 	Sources getSourceById(Long id)
-	 
+
 	Sources getSources()
-	 
+
 	Sources getSources(Pagination pagination)
-	
-	 
+
 	Tags getTagById(Long id)
-	
-	
+
 	TagTypes getTagTypes()
-	
-	 
+
 	TagLists getTags(GetTagsRequest request)
-	 
+
 	TagLists getTags(GetTagsRequest request, Pagination pagination)
-	
+
 	TagLists getRelatedTagsById(Long id)
-	 
+
 	TagLists getRelatedTagsById(Long id, Pagination pagination)
-		 		 		
-	 
+
 	void setBasePath(String basePath)
-	 
+
 	void setPagination(Pagination pagination)
-	
+```
 
 ## Other Resources
 
