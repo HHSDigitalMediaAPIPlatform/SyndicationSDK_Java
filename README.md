@@ -115,22 +115,7 @@ The following example illustrates how to use the SDK's REST client interface:
 	 
 	Languages getLanguages(Pagination pagination)
 	
-	 
-	MediaItems getMediaById(Long id)
-	
-	MediaItems getMedia(GetMediaRequest request)
-	 
-	MediaItems getMedia(GetMediaRequest request, Pagination pagination)
-	 
-	MediaItems getMediaByCampaignId(Long id)
-	 
-	MediaItems getMediaByCampaignId(Long id, Pagination pagination)
-	 
-	MediaItems getMediaByTagId(Long id)
-	 
-	MediaItems getMediaByTagId(Long id, Pagination pagination)
-	
-	
+	 		
 	String getMediaContentById(Long id)
 	
 	String getMediaPreviewById(Long id)
@@ -165,11 +150,24 @@ The following example illustrates how to use the SDK's REST client interface:
 	 
 	MediaItems getRelatedMediaById(Long id, Pagination pagination)
 	
+	MediaItems searchMedia(String query)
 	 
-	TagLists getRelatedTagsById(Long id)
-	 
-	TagLists getRelatedTagsById(Long id, Pagination pagination)
+	MediaItems searchMedia(String query, Pagination pagination)
 	
+	MediaItems getMediaById(Long id)
+	
+	MediaItems getMedia(GetMediaRequest request)
+	 
+	MediaItems getMedia(GetMediaRequest request, Pagination pagination)
+	 
+	MediaItems getMediaByCampaignId(Long id)
+	 
+	MediaItems getMediaByCampaignId(Long id, Pagination pagination)
+	 
+	MediaItems getMediaByTagId(Long id)
+	 
+	MediaItems getMediaByTagId(Long id, Pagination pagination)
+			 
 	 
 	Resources getResources(String query)
 	
@@ -183,19 +181,18 @@ The following example illustrates how to use the SDK's REST client interface:
 	 
 	Tags getTagById(Long id)
 	
+	
+	TagTypes getTagTypes()
+	
 	 
 	TagLists getTags(GetTagsRequest request)
 	 
 	TagLists getTags(GetTagsRequest request, Pagination pagination)
 	
+	TagLists getRelatedTagsById(Long id)
 	 
-	TagTypes getTagTypes()
-	
-	 
-	MediaItems searchMedia(String query)
-	 
-	MediaItems searchMedia(String query, Pagination pagination)
-	
+	TagLists getRelatedTagsById(Long id, Pagination pagination)
+		 		 		
 	 
 	void setBasePath(String basePath)
 	 
