@@ -1,12 +1,12 @@
 # HHS Media Services API - JAVA SDK
 
-**Build Information**
+**Version Information**
 
 ```
-SDK Distribution: syndication-java-sdk-v2-alpha
-API Version: v2
-Gradle: 1.11
+SDK Distribution: v2-alpha
+HHS Media Services API: v2
 Java: 1.7.0_51
+Gradle: 1.11
 ```
 ---
 
