@@ -43,9 +43,9 @@ The SDK includes offline API documentation for convenience, but you are encourag
 
 ### Included libraries
 
-The Gradle build tool will automatically download the dependencies needed by the SDK, with the exception of the **com.ctacorp.syndication:syndication-java-client:v2**. This library is included in [libs](libs) folder.
+The Gradle build tool will automatically download the dependencies needed by the SDK, with the exception of the *com.ctacorp.syndication:syndication-java-client:v2*. This library is included in [libs](libs) folder.
 
-**syndication-java-client** is the REST client library that is auto-generated using the [swagger-codegen](https://github.com/wordnik/swagger-codegen) project, and is based on the the HHS Media Services API's Swagger [specification](http://ctacdev.com:8090/Syndication/swagger/api). **syndication-java-client** can be used independently of the SDK to create a REST client, however the auto-generated code is not always developer friendly. The SDK wraps the **syndication-java-client** client API to make it easier to use.
+*syndication-java-client* is the REST client library that is auto-generated using the [swagger-codegen](https://github.com/wordnik/swagger-codegen) project, and is based on the the HHS Media Services API's Swagger [specification](http://ctacdev.com:8090/Syndication/swagger/api). *syndication-java-client* can be used independently of the SDK to create a REST client, however the auto-generated code is not always developer friendly. The SDK wraps the *syndication-java-client* client API to make it easier to use.
 
 ### Test Cases and Examples
 
