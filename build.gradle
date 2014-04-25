@@ -26,6 +26,9 @@ dependencies {
 
     compile fileTree(dir: 'libs', include: '*.jar')
 
+    compile 'com.googlecode.json-simple:json-simple:1.1'
+    compile 'commons-io:commons-io:2.4'
+
     compile 'org.springframework:spring-core:4.0.3.RELEASE'
     compile 'com.sun.jersey:jersey-core:1.7'
     compile 'com.sun.jersey:jersey-client:1.7'

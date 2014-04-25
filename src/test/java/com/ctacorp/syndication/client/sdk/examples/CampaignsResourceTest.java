@@ -1,6 +1,7 @@
-package com.ctacorp.syndication.client.sdk;
+package com.ctacorp.syndication.client.sdk.examples;
 
 import com.ctacorp.syndication.client.model.*;
+import com.ctacorp.syndication.client.sdk.ResourcesApi;
 import org.junit.Test;
 
 import java.util.List;

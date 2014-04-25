@@ -1,0 +1,997 @@
+{
+    "results": [
+    {
+        "mediaType": "Image",
+        "id": 42,
+        "name": "Healthy Kids",
+        "description": "Healthy happy kids having a fun and healthy time.",
+        "sourceUrl": "http://www.cdc.gov/features/flu/flu_456px.jpg",
+        "width": 345,
+        "height": 191,
+        "dateContentAuthored": "2013-12-17T17:19:52Z",
+        "dateContentUpdated": "2014-04-16T17:19:52Z",
+        "dateContentPublished": "2014-04-20T17:19:52Z",
+        "dateContentReviewed": "2014-04-20T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-12T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "681437225",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/42/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 43,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8152/7415645094_e4f9827465_o.jpg",
+        "width": 3824,
+        "height": 2540,
+        "dateContentAuthored": "2013-12-01T17:19:52Z",
+        "dateContentUpdated": "2014-04-12T17:19:52Z",
+        "dateContentPublished": "2014-04-17T17:19:52Z",
+        "dateContentReviewed": "2014-04-23T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-16T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "177460699",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 21,
+                "name": "Aseptic meningitis"
+            },
+            {
+                "id": 11,
+                "name": "Anemia"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/43/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "purpose": "The purpose of this is to show you the purpose",
+            "mobileTitle": "Mobile title",
+            "notes": "Some notes would go here",
+            "toolTip": "Tool Tips are Useful",
+            "slangName": "Slang name"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 44,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8005/7415645828_c8df619e8f_o.jpg",
+        "width": 3789,
+        "height": 2517,
+        "dateContentAuthored": "2013-05-25T17:19:52Z",
+        "dateContentUpdated": "2014-04-24T17:19:52Z",
+        "dateContentPublished": "2014-04-21T17:19:52Z",
+        "dateContentReviewed": "2014-04-24T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-13T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-2135473149",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 10,
+                "name": "Amebiasis"
+            },
+            {
+                "id": 26,
+                "name": "Athetosis"
+            },
+            {
+                "id": 20,
+                "name": "Arthritis"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/44/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title",
+            "shortDescription": "This is a short description."
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 45,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5160/7415662296_17ddb42151_o.jpg",
+        "width": 3123,
+        "height": 2074,
+        "dateContentAuthored": "2014-02-17T17:19:52Z",
+        "dateContentUpdated": "2014-04-19T17:19:52Z",
+        "dateContentPublished": "2014-04-22T17:19:52Z",
+        "dateContentReviewed": "2014-04-20T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-15T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-863616566",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 18,
+                "name": "Apraxia"
+            },
+            {
+                "id": 19,
+                "name": "Argyria"
+            },
+            {
+                "id": 23,
+                "name": "Asthma"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/45/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "slangName": "Slang name",
+            "notes": "Some notes would go here",
+            "mobileTitle": "Mobile title",
+            "purpose": "The purpose of this is to show you the purpose",
+            "toolTip": "Tool Tips are Useful"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 46,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8166/7415661744_9745bd9a51_o.jpg",
+        "width": 2453,
+        "height": 3693,
+        "dateContentAuthored": "2014-02-26T17:19:52Z",
+        "dateContentUpdated": "2014-04-23T17:19:52Z",
+        "dateContentPublished": "2014-04-17T17:19:52Z",
+        "dateContentReviewed": "2014-04-20T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-14T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1649647289",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 2,
+                "name": "Acne"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/46/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "slangName": "Slang name",
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 47,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7253/7415655194_3b0129291e_o.jpg",
+        "width": 4288,
+        "height": 2848,
+        "dateContentAuthored": "2013-10-23T17:19:52Z",
+        "dateContentUpdated": "2014-04-17T17:19:52Z",
+        "dateContentPublished": "2014-04-21T17:19:52Z",
+        "dateContentReviewed": "2014-04-24T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-21T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-787812139",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 15,
+                "name": "Anotia"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/47/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "accesibilityMessage": "Aria Alert messages could go here.",
+            "mobileTitle": "Mobile title",
+            "shortDescription": "This is a short description."
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 48,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5445/7415656828_e59b76ecdf_o.jpg",
+        "width": 2564,
+        "height": 3860,
+        "dateContentAuthored": "2014-01-10T17:19:52Z",
+        "dateContentUpdated": "2014-04-16T17:19:52Z",
+        "dateContentPublished": "2014-04-17T17:19:52Z",
+        "dateContentReviewed": "2014-04-23T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-12T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-1322148657",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 17,
+                "name": "Appendicitis"
+            },
+            {
+                "id": 7,
+                "name": "Alopecia"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/48/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title",
+            "shortDescription": "This is a short description."
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 49,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5039/7415661070_1c3c36dec4_o.jpg",
+        "width": 3711,
+        "height": 2465,
+        "dateContentAuthored": "2013-12-18T17:19:52Z",
+        "dateContentUpdated": "2014-04-24T17:19:52Z",
+        "dateContentPublished": "2014-04-24T17:19:52Z",
+        "dateContentReviewed": "2014-04-21T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-13T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1008525598",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 29,
+                "name": "Black Death"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/49/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "accesibilityMessage": "Aria Alert messages could go here.",
+            "mobileTitle": "Mobile title",
+            "shortDescription": "This is a short description."
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 50,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5115/7415659906_69cebdb0a9_o.jpg",
+        "width": 2626,
+        "height": 3954,
+        "dateContentAuthored": "2014-01-02T17:19:52Z",
+        "dateContentUpdated": "2014-04-24T17:19:52Z",
+        "dateContentPublished": "2014-04-16T17:19:52Z",
+        "dateContentReviewed": "2014-04-23T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-20T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1380714758",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/50/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title",
+            "slangName": "Slang name",
+            "purpose": "The purpose of this is to show you the purpose"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 51,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8008/7415659216_e565ac25da_o.jpg",
+        "width": 3905,
+        "height": 2593,
+        "dateContentAuthored": "2014-03-03T17:19:52Z",
+        "dateContentUpdated": "2014-04-20T17:19:52Z",
+        "dateContentPublished": "2014-04-24T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-19T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "544845909",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 19,
+                "name": "Argyria"
+            },
+            {
+                "id": 16,
+                "name": "Anthrax"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/51/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "shortDescription": "This is a short description.",
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 52,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8008/7420010158_c2a9f0e1fd_o.jpg",
+        "width": 2589,
+        "height": 1720,
+        "dateContentAuthored": "2014-05-11T17:19:52Z",
+        "dateContentUpdated": "2014-04-16T17:19:52Z",
+        "dateContentPublished": "2014-04-23T17:19:52Z",
+        "dateContentReviewed": "2014-04-21T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-20T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1722874013",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/52/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title",
+            "slangName": "Slang name"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 53,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7259/7415647408_23e02e24e2_o.jpg",
+        "width": 3809,
+        "height": 2530,
+        "dateContentAuthored": "2014-03-20T17:19:52Z",
+        "dateContentUpdated": "2014-04-21T17:19:52Z",
+        "dateContentPublished": "2014-04-20T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-15T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-1624552150",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/53/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "purpose": "The purpose of this is to show you the purpose",
+            "mobileTitle": "Mobile title",
+            "slangName": "Slang name"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 54,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7269/7415651398_ed438c3765_o.jpg",
+        "width": 2573,
+        "height": 3874,
+        "dateContentAuthored": "2014-04-02T17:19:52Z",
+        "dateContentUpdated": "2014-04-21T17:19:52Z",
+        "dateContentPublished": "2014-04-16T17:19:52Z",
+        "dateContentReviewed": "2014-04-21T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-20T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "588922730",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 11,
+                "name": "Anemia"
+            },
+            {
+                "id": 8,
+                "name": "Alzheimer's disease"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/54/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 55,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7247/7415641940_ebe7061ddd_o.jpg",
+        "width": 4288,
+        "height": 2848,
+        "dateContentAuthored": "2013-06-28T17:19:52Z",
+        "dateContentUpdated": "2014-04-17T17:19:52Z",
+        "dateContentPublished": "2014-04-23T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-14T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-306493180",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 12,
+                "name": "Aneurdu"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/55/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "slangName": "Slang name",
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 56,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7275/7415648752_8a59b311af_o.jpg",
+        "width": 3451,
+        "height": 2292,
+        "dateContentAuthored": "2014-04-25T17:19:52Z",
+        "dateContentUpdated": "2014-04-19T17:19:52Z",
+        "dateContentPublished": "2014-04-24T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-17T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1784057442",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/56/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "purpose": "The purpose of this is to show you the purpose",
+            "slangName": "Slang name",
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 57,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5116/7415649474_f0d229bacd_o.jpg",
+        "width": 2574,
+        "height": 3876,
+        "dateContentAuthored": "2013-09-25T17:19:52Z",
+        "dateContentUpdated": "2014-04-15T17:19:52Z",
+        "dateContentPublished": "2014-04-22T17:19:52Z",
+        "dateContentReviewed": "2014-04-23T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-18T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-1515795672",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 10,
+                "name": "Amebiasis"
+            },
+            {
+                "id": 1,
+                "name": "Achondroplasia"
+            }
+        ],
+        "tinyUrl": "NotMapped",
+        "tinyToken": "N/A",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/57/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "notes": "Some notes would go here",
+            "mobileTitle": "Mobile title",
+            "slangName": "Slang name",
+            "purpose": "The purpose of this is to show you the purpose"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 58,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm6.staticflickr.com/5444/7415649912_d68112f44f_o.jpg",
+        "width": 3246,
+        "height": 2156,
+        "dateContentAuthored": "2013-10-23T17:19:52Z",
+        "dateContentUpdated": "2014-04-14T17:19:52Z",
+        "dateContentPublished": "2014-04-19T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-21T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1422820618",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 26,
+                "name": "Athetosis"
+            }
+        ],
+        "tinyUrl": "http://tiny.hhs.gov/1",
+        "tinyToken": "1",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/58/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "notes": "Some notes would go here",
+            "purpose": "The purpose of this is to show you the purpose",
+            "slangName": "Slang name",
+            "toolTip": "Tool Tips are Useful",
+            "mobileTitle": "Mobile title"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 59,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7125/7415647976_bba632768e_o.jpg",
+        "width": 2722,
+        "height": 1808,
+        "dateContentAuthored": "2014-01-18T17:19:52Z",
+        "dateContentUpdated": "2014-04-22T17:19:52Z",
+        "dateContentPublished": "2014-04-17T17:19:52Z",
+        "dateContentReviewed": "2014-04-20T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-16T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "-313840770",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 27,
+                "name": "Bacterial meningitis"
+            },
+            {
+                "id": 9,
+                "name": "Amblyopia"
+            },
+            {
+                "id": 15,
+                "name": "Anotia"
+            }
+        ],
+        "tinyUrl": "http://tiny.hhs.gov/2",
+        "tinyToken": "2",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/59/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "purpose": "The purpose of this is to show you the purpose",
+            "mobileTitle": "Mobile title",
+            "slangName": "Slang name"
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 60,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm8.staticflickr.com/7139/7420009470_1cebff7bc8_o.jpg",
+        "width": 2832,
+        "height": 1881,
+        "dateContentAuthored": "2014-04-21T17:19:52Z",
+        "dateContentUpdated": "2014-04-12T17:19:52Z",
+        "dateContentPublished": "2014-04-22T17:19:52Z",
+        "dateContentReviewed": "2014-04-21T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-14T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "1738441665",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 9,
+                "name": "Amblyopia"
+            }
+        ],
+        "tinyUrl": "http://tiny.hhs.gov/3",
+        "tinyToken": "3",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/60/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "mobileTitle": "Mobile title",
+            "shortDescription": "This is a short description."
+        }
+    },
+    {
+        "mediaType": "Image",
+        "id": 61,
+        "name": "Youth & Tobacco Town Hall",
+        "description": "June 14, 2012; The U.S. Department of Health and Human Services (HHS) and the U.S. Food and Drug Administration (FDA), in partnership with state and local public health authorities and tobacco prevention professionals throughout the Pacific Northwest, held a Youth and Tobacco Town Hall Meeting on the Seattle campus of the University of Washington. The town hall was part of the broader HHS effort to prevent children from starting to use tobacco and to help current tobacco users quit. Three top U.S. health leaders, public health professionals, tobacco use prevention specialists, educators, advocates, policy makers and—importantly—young people from around the Pacific Northwest attended the meeting. The goals of the event were to share information, tools, and best practices in tobacco use prevention, to enhance existing efforts and to devise new strategies to help youth and young people resist social and industry pressure to initiate tobacco use, or to end tobacco use if it has already begun.",
+        "sourceUrl": "http://farm9.staticflickr.com/8013/7420008656_10a8101885_o.jpg",
+        "width": 2449,
+        "height": 1627,
+        "dateContentAuthored": "2013-08-03T17:19:52Z",
+        "dateContentUpdated": "2014-04-21T17:19:52Z",
+        "dateContentPublished": "2014-04-19T17:19:52Z",
+        "dateContentReviewed": "2014-04-22T17:19:52Z",
+        "dateSyndicationVisible": "2014-04-24T17:19:52Z",
+        "dateSyndicationCaptured": "2014-04-20T17:19:52Z",
+        "dateSyndicationUpdated": "2014-04-24T17:20:00Z",
+        "language": {
+            "id": 1,
+            "name": "English",
+            "isoCode": "eng"
+        },
+        "externalGuid": "969947963",
+        "contentHash": null,
+        "source": {
+            "id": 7,
+            "name": "Centers for Disease Control and Prevention",
+            "acronym": "CDC",
+            "websiteUrl": "http://www.cdc.gov",
+            "contactEmail": null,
+            "largeLogoUrl": null,
+            "smallLogoUrl": null
+        },
+        "alternateImages": [],
+        "tags": [],
+        "campaigns": [
+            {
+                "id": 7,
+                "name": "Alopecia"
+            }
+        ],
+        "tinyUrl": "http://tiny.hhs.gov/4",
+        "tinyToken": "4",
+        "thumbnailUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/media/61/thumbnail.jpg",
+        "attribution": "&lt;div id='hhsAttribution'&gt;Content provided and maintained by &lt;a href='http://www.cdc.gov' target='_blank'&gt;Health and Human Services&lt;/a&gt; (HHS). Please see our system &lt;a href='http:syndication.hhs.gov' target='_blank'&gt;usage guidelines and disclaimer&lt;/a&gt;.&lt;/div&gt;",
+        "extendedAttributes": {
+            "shortDescription": "This is a short description.",
+            "mobileTitle": "Mobile title"
+        }
+    }
+]}

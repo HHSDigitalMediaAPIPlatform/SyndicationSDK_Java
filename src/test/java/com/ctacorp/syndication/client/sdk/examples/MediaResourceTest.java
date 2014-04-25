@@ -1,6 +1,8 @@
-package com.ctacorp.syndication.client.sdk;
+package com.ctacorp.syndication.client.sdk.examples;
 
 import com.ctacorp.syndication.client.model.*;
+import com.ctacorp.syndication.client.sdk.*;
+import com.ctacorp.syndication.client.sdk.Pagination;
 import org.junit.Test;
 
 import java.util.List;
