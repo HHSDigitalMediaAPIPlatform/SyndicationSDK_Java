@@ -1,6 +1,10 @@
 package com.ctacorp.syndication.client.sdk;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class GetMediaRequest {
 
@@ -49,6 +53,21 @@ public class GetMediaRequest {
     private String sourceAcronymContains;
     private String tagIds;
     private String restrictToSet;
+
+    public GetMediaRequest() {
+    }
+
+    public GetMediaRequest(MediaType mediaType) {
+        this.mediaTypes = mediaType.getMediaType();
+    }
+
+    public GetMediaRequest(MediaType ... mediaTypes) {
+        List<String> mediaTypeList = new ArrayList<String>();
+        for (MediaType mediaType : mediaTypes) {
+            mediaTypeList.add(mediaType.getMediaType());
+        }
+        this.mediaTypes = StringUtils.join(mediaTypeList, ",");
+    }
 
     public String getMediaTypes() {
         return mediaTypes;

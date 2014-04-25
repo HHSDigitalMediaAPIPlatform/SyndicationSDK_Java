@@ -13,6 +13,13 @@ public class MediaItemDeserializer {
 
     private Map<String, List<Object>> mediaItemLists = new HashMap<String, List<Object>>();
 
+    public MediaItemDeserializer() throws Exception {
+    }
+
+    public MediaItemDeserializer(String raw) throws Exception {
+        init(raw);
+    }
+
     public Map<String, List<Object>> init(MediaItems mediaItems) throws Exception {
         String raw = mediaItems.getRaw();
         return init(raw);
@@ -88,12 +95,12 @@ public class MediaItemDeserializer {
         return mediaItemLists;
     }
 
+    @SuppressWarnings("unchecked")
     public <T> List<T> getMediaByType(Class<T> clazz) {
         List objects = mediaItemLists.get(clazz.getSimpleName());
         if(objects==null) {
             objects = new ArrayList<T>();
         }
-        //noinspection unchecked
         return Collections.checkedList(objects, clazz);
     }
 }

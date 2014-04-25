@@ -2,7 +2,7 @@ package com.ctacorp.syndication.client.sdk.examples;
 
 import com.ctacorp.syndication.client.model.*;
 import com.ctacorp.syndication.client.sdk.*;
-import com.ctacorp.syndication.client.sdk.Pagination;
+import com.ctacorp.syndication.client.sdk.MediaType;
 import org.junit.Test;
 
 import java.util.List;
@@ -25,6 +25,134 @@ public class MediaResourceTest {
         List<MediaItem> results = mediaItems.getResults();
         for (MediaItem mediaItem : results) {
             System.out.println(mediaItem);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyAudio() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.AUDIO));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Audio> audios = mediaItemDeserializer.getMediaByType(Audio.class);
+        for (Audio audio : audios) {
+            System.out.println(audio);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyCollections() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.COLLECTION));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Collection> collections = mediaItemDeserializer.getMediaByType(Collection.class);
+        for (Collection collection : collections) {
+            System.out.println(collection);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyHtmls() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.HTML));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Html> htmls = mediaItemDeserializer.getMediaByType(Html.class);
+        for (Html html : htmls) {
+            System.out.println(html);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyImages() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.IMAGE));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Image> images = mediaItemDeserializer.getMediaByType(Image.class);
+        for (Image image : images) {
+            System.out.println(image);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyInfographics() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.INFOGRAPHIC));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Infographic> infographics = mediaItemDeserializer.getMediaByType(Infographic.class);
+        for (Infographic infographic : infographics) {
+            System.out.println(infographic);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlySocialMedia() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.SOCIALMEDIA));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<SocialMedia> socialMedias = mediaItemDeserializer.getMediaByType(SocialMedia.class);
+        for (SocialMedia socialMedia : socialMedias) {
+            System.out.println(socialMedia);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyVideo() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.VIDEO));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Video> videos = mediaItemDeserializer.getMediaByType(Video.class);
+        for (Video video : videos) {
+            System.out.println(video);
+        }
+    }
+
+    @Test
+    public void testGetMediaOnlyWidgets() throws Exception {
+
+        MediaItems mediaItems = new ResourcesApi().getMedia(new GetMediaRequest(MediaType.WIDGET));
+        assertNotNull(mediaItems);
+
+        Meta meta = mediaItems.getMeta();
+        assertEquals(200, meta.getStatus().longValue());
+
+        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
+        List<Widget> widgets = mediaItemDeserializer.getMediaByType(Widget.class);
+        for (Widget widget : widgets) {
+            System.out.println(widget);
         }
     }
 
