@@ -16,6 +16,10 @@ task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
 
+task javadocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+}
+
 //noinspection GroovyUnusedAssignment
 sourceCompatibility = 1.6
 //noinspection GroovyUnusedAssignment
