@@ -1,0 +1,305 @@
+{
+    "callback": null,
+    "meta": {
+        "messages": [],
+        "pagination": {
+            "count": 64,
+            "currentUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/resources.json?offset=0&max=20&sort=id&order=ASC&q=health&format=json&restrictToSet=37,68,69,70,66,67,84,74,72,75,73,71,6,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,1,16,17,35,8,15,32,7,10,30,19,28,5,11,26,20,14,18,21,22,3,4,2,33,12,13&countOverRide=64&totalPageOverride=1",
+            "max": 20,
+            "nextUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/resources.json?offset=20&max=20&sort=id&order=ASC&q=health&format=json&restrictToSet=37,68,69,70,66,67,84,74,72,75,73,71,6,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,1,16,17,35,8,15,32,7,10,30,19,28,5,11,26,20,14,18,21,22,3,4,2,33,12,13&countOverRide=64&totalPageOverride=1",
+            "offset": 0,
+            "order": "ASC",
+            "pageNum": 1,
+            "previousUrl": "http://ctacdev.com:8090/Syndication/api/v2/resources/resources.json?offset=0&max=20&sort=id&order=ASC&q=health&format=json&restrictToSet=37,68,69,70,66,67,84,74,72,75,73,71,6,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,1,16,17,35,8,15,32,7,10,30,19,28,5,11,26,20,14,18,21,22,3,4,2,33,12,13&countOverRide=64&totalPageOverride=1",
+            "sort": "id",
+            "total": 64,
+            "totalPages": 1
+        },
+        "status": 200
+    },
+    "results": [
+        {
+            "sources": {
+                "items": [
+                    {
+                        "id": 3,
+                        "name": "National Institutes of Health"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Health and Human Services"
+                    }
+                ]
+            },
+            "htmls": {
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Heart Disease & Stroke"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Be Ready"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Healthy Swimming"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Dry Pet Food"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Preventing Suicide"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Grandkid's Health"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Gynecologic Cancers"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Cholesterol Awareness"
+                    },
+                    {
+                        "id": 10,
+                        "name": "Treating Conjunctivitis"
+                    },
+                    {
+                        "id": 11,
+                        "name": "Prostate Cancer"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Whooping Cough"
+                    },
+                    {
+                        "id": 13,
+                        "name": "Hand, Foot, and Mouth Disease"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Newborn Screening"
+                    },
+                    {
+                        "id": 15,
+                        "name": "September Is World Alzheimer's Month"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Childhood Obesity Awareness"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Alcohol Screening"
+                    },
+                    {
+                        "id": 18,
+                        "name": "Vaccinate against Flu"
+                    },
+                    {
+                        "id": 19,
+                        "name": "High blood pressure education."
+                    },
+                    {
+                        "id": 20,
+                        "name": "Asthma Awareness"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Seasonal Flu"
+                    },
+                    {
+                        "id": 22,
+                        "name": "Support"
+                    },
+                    {
+                        "id": 26,
+                        "name": "Depression"
+                    },
+                    {
+                        "id": 28,
+                        "name": "How To Deal"
+                    },
+                    {
+                        "id": 30,
+                        "name": "Health Costs"
+                    },
+                    {
+                        "id": 32,
+                        "name": "Smokeless Tobacco"
+                    },
+                    {
+                        "id": 33,
+                        "name": "Smoked Tobacco"
+                    },
+                    {
+                        "id": 35,
+                        "name": "Quitting"
+                    },
+                    {
+                        "id": 37,
+                        "name": "Health Benefits of Quitting"
+                    }
+                ],
+                "mediaType": "Html"
+            },
+            "images": {
+                "items": [
+                    {
+                        "id": 43,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 44,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 45,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 46,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 47,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 48,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 49,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 50,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 51,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 52,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 53,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 54,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 55,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 56,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 57,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 58,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 59,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 60,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 61,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 62,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 63,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 64,
+                        "name": "Youth & Tobacco Town Hall"
+                    },
+                    {
+                        "id": 65,
+                        "name": "Youth & Tobacco Town Hall"
+                    }
+                ],
+                "mediaType": "Image"
+            },
+            "videos": {
+                "items": [
+                    {
+                        "id": 66,
+                        "name": "The Health Insurance Marketplace is coming - Get Started Today"
+                    },
+                    {
+                        "id": 67,
+                        "name": "Giving you the choice in your health care: Savanah's Story"
+                    },
+                    {
+                        "id": 68,
+                        "name": "The Health Insurance Marketplace: Malik's Story"
+                    },
+                    {
+                        "id": 69,
+                        "name": "The Health Insurance Marketplace: Lupita's Story"
+                    },
+                    {
+                        "id": 70,
+                        "name": "I will not be rejected coverage: Isbah's Story"
+                    },
+                    {
+                        "id": 71,
+                        "name": "Stories of Hope and Recovery: John Saunders"
+                    },
+                    {
+                        "id": 72,
+                        "name": "Stories of Hope and Recovery: Cher"
+                    },
+                    {
+                        "id": 73,
+                        "name": "Stories of Hope and Recovery: Demi Lovato"
+                    },
+                    {
+                        "id": 74,
+                        "name": "Stories of Hope and Recovery: Senator Gordon Smith"
+                    },
+                    {
+                        "id": 75,
+                        "name": "Stories of Hope and Recovery: Glenn Close"
+                    }
+                ],
+                "mediaType": "Video"
+            },
+            "infographics": {
+                "items": [
+                    {
+                        "id": 84,
+                        "name": "info n graphics"
+                    }
+                ],
+                "mediaType": "Infographic"
+            },
+            "total": 64
+        }
+    ]
+}

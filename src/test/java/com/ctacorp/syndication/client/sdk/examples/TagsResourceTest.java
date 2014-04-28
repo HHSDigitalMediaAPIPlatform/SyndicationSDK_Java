@@ -2,12 +2,11 @@ package com.ctacorp.syndication.client.sdk.examples;
 
 import com.ctacorp.syndication.client.model.*;
 import com.ctacorp.syndication.client.sdk.GetTagsRequest;
-import com.ctacorp.syndication.client.sdk.ParsingUtils;
+import com.ctacorp.syndication.client.sdk.ResourceDeserializer;
 import com.ctacorp.syndication.client.sdk.ResourcesApi;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -42,8 +41,7 @@ public class TagsResourceTest {
         Meta meta = tagLists.getMeta();
         assertEquals(200,meta.getStatus().longValue());
 
-        List<Map> tagListsResults = tagLists.getResults();
-        List<Tag> tags = ParsingUtils.getTagsFromTagLists(tagListsResults);
+        List<Tag> tags = ResourceDeserializer.getTagsFromTagLists(tagLists);
         for(Tag tag : tags) {
             System.out.println(tag);
         }
@@ -89,8 +87,7 @@ public class TagsResourceTest {
         Meta meta = tagLists.getMeta();
         assertEquals(200,meta.getStatus().longValue());
 
-        List<Map> tagListsResults = tagLists.getResults();
-        List<Tag> tags = ParsingUtils.getTagsFromTagLists(tagListsResults);
+        List<Tag> tags = ResourceDeserializer.getTagsFromTagLists(tagLists);
         for(Tag tag : tags) {
             System.out.println(tag);
         }

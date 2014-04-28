@@ -3,20 +3,22 @@ package com.ctacorp.syndication.client.sdk;
 import com.ctacorp.syndication.client.common.ApiInvoker;
 import com.ctacorp.syndication.client.model.MediaItem;
 import com.ctacorp.syndication.client.model.MediaItems;
+import com.ctacorp.syndication.client.model.Tag;
+import com.ctacorp.syndication.client.model.TagLists;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.util.*;
 
-public class MediaItemDeserializer {
+public class ResourceDeserializer {
 
     private Map<String, List<Object>> mediaItemLists = new HashMap<String, List<Object>>();
 
-    public MediaItemDeserializer() throws Exception {
+    public ResourceDeserializer() throws Exception {
     }
 
-    public MediaItemDeserializer(String raw) throws Exception {
+    public ResourceDeserializer(String raw) throws Exception {
         init(raw);
     }
 
@@ -40,7 +42,7 @@ public class MediaItemDeserializer {
         }
 
         if (jsonArray != null) {
-            return doTheThing(jsonArray);
+            return createTypedListMap(jsonArray);
         } else {
             if (jsonObj != null) {
                 if (!jsonObj.containsKey("results")) {
@@ -50,7 +52,7 @@ public class MediaItemDeserializer {
                     if (o instanceof JSONObject) {
                         throw new IllegalArgumentException("Expected a JSONArray at this node");
                     }
-                    return doTheThing((JSONArray) o);
+                    return createTypedListMap((JSONArray) o);
                 }
             }
         }
@@ -58,7 +60,7 @@ public class MediaItemDeserializer {
         return new HashMap<String, List<Object>>();
     }
 
-    private Map<String, List<Object>> doTheThing(JSONArray jsonArray) throws Exception {
+    private Map<String, List<Object>> createTypedListMap(JSONArray jsonArray) throws Exception {
 
         Map<String,List<Object>> mediaItemLists = new HashMap<String, List<Object>>();
 
@@ -96,11 +98,37 @@ public class MediaItemDeserializer {
     }
 
     @SuppressWarnings("unchecked")
-    public <T> List<T> getMediaByType(Class<T> clazz) {
+    public <T> List<T> getResourceByType(Class<T> clazz) {
         List objects = mediaItemLists.get(clazz.getSimpleName());
         if(objects==null) {
             objects = new ArrayList<T>();
         }
         return Collections.checkedList(objects, clazz);
+    }
+
+    @SuppressWarnings("unchecked")
+    public static List<Tag> getTagsFromTagLists(TagLists tagLists) {
+
+        List<Map> tagListsResults = tagLists.getResults();
+
+        List<Tag> allTags = new ArrayList<Tag>();
+
+        for(Map tagList : tagListsResults) {
+            List<Map> tags = (List<Map>) tagList.get("Topic");
+            if(tags!=null) {
+                for(Map tagMap : tags) {
+
+                    Tag tag = new Tag();
+                    tag.setId(Long.valueOf(tagMap.get("id").toString()));
+                    tag.setLanguage((String) tagMap.get("language"));
+                    tag.setName((String) tagMap.get("name"));
+                    tag.setType((String) tagMap.get("type"));
+
+                    allTags.add(tag);
+                }
+            }
+        }
+
+        return allTags;
     }
 }

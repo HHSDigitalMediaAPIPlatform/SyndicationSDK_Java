@@ -37,8 +37,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Audio> audios = mediaItemDeserializer.getMediaByType(Audio.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Audio> audios = resourceDeserializer.getResourceByType(Audio.class);
         for (Audio audio : audios) {
             System.out.println(audio);
         }
@@ -53,8 +53,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Collection> collections = mediaItemDeserializer.getMediaByType(Collection.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Collection> collections = resourceDeserializer.getResourceByType(Collection.class);
         for (Collection collection : collections) {
             System.out.println(collection);
         }
@@ -69,8 +69,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Html> htmls = mediaItemDeserializer.getMediaByType(Html.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Html> htmls = resourceDeserializer.getResourceByType(Html.class);
         for (Html html : htmls) {
             System.out.println(html);
         }
@@ -85,8 +85,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Image> images = mediaItemDeserializer.getMediaByType(Image.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Image> images = resourceDeserializer.getResourceByType(Image.class);
         for (Image image : images) {
             System.out.println(image);
         }
@@ -101,8 +101,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Infographic> infographics = mediaItemDeserializer.getMediaByType(Infographic.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Infographic> infographics = resourceDeserializer.getResourceByType(Infographic.class);
         for (Infographic infographic : infographics) {
             System.out.println(infographic);
         }
@@ -117,8 +117,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<SocialMedia> socialMedias = mediaItemDeserializer.getMediaByType(SocialMedia.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<SocialMedia> socialMedias = resourceDeserializer.getResourceByType(SocialMedia.class);
         for (SocialMedia socialMedia : socialMedias) {
             System.out.println(socialMedia);
         }
@@ -133,8 +133,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Video> videos = mediaItemDeserializer.getMediaByType(Video.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Video> videos = resourceDeserializer.getResourceByType(Video.class);
         for (Video video : videos) {
             System.out.println(video);
         }
@@ -149,8 +149,8 @@ public class MediaResourceTest {
         Meta meta = mediaItems.getMeta();
         assertEquals(200, meta.getStatus().longValue());
 
-        MediaItemDeserializer mediaItemDeserializer = new MediaItemDeserializer(mediaItems.getRaw());
-        List<Widget> widgets = mediaItemDeserializer.getMediaByType(Widget.class);
+        ResourceDeserializer resourceDeserializer = new ResourceDeserializer(mediaItems.getRaw());
+        List<Widget> widgets = resourceDeserializer.getResourceByType(Widget.class);
         for (Widget widget : widgets) {
             System.out.println(widget);
         }
