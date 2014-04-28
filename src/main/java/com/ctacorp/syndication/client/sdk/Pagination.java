@@ -6,6 +6,15 @@ public class Pagination {
     private Integer offset;
     private String sort;
 
+    public Pagination() {
+    }
+
+    public Pagination(Integer max, Integer offset, String sort) {
+        this.max = max;
+        this.offset = offset;
+        this.sort = sort;
+    }
+
     public Integer getMax() {
         return max;
     }
