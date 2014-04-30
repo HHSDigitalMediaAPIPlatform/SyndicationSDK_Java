@@ -119,92 +119,93 @@ Many of the HHS Media Services API's resources can be retrieved using pagination
 #### Resources
 
 ```
-Resources	getResources(java.lang.String query) 
+Resources	getResources(java.lang.String query)
 ```
 
 #### Languages
 
 ```
-Languages	getLanguages() 
-Languages	getLanguages(Pagination pagination) 
+Languages	getLanguages()
+Languages	getLanguages(Pagination pagination)
 ```
 
 #### Campaigns
 
 ```
-Campaigns	getCampaignById(java.lang.Long id) 
-Campaigns	getCampaigns() 
-Campaigns	getCampaigns(Pagination pagination) 
+Campaigns	getCampaignById(java.lang.Long id)
+Campaigns	getCampaigns()
+Campaigns	getCampaigns(Pagination pagination)
 ```
 
 #### Media
 
 ```
-MediaItems	searchMedia(java.lang.String query) 
-MediaItems	searchMedia(java.lang.String query, Pagination pagination) 
+MediaItems	searchMedia(java.lang.String query)
+MediaItems	searchMedia(java.lang.String query, Pagination pagination)
 ```
 
 ```
-MediaItems	getMedia(GetMediaRequest request) 
-MediaItems	getMedia(GetMediaRequest request, Pagination pagination) 
-MediaItems	getMediaByCampaignId(java.lang.Long id) 
-MediaItems	getMediaByCampaignId(java.lang.Long id, Pagination pagination) 
-MediaItems	getMediaById(java.lang.Long id) 
-MediaItems	getMediaByTagId(java.lang.Long id) 
-MediaItems	getMediaByTagId(java.lang.Long id, Pagination pagination) 
-MediaItems	getMostPopularMediaItems() 
-MediaItems	getMostPopularMediaItems(Pagination pagination) 
-MediaItems	getRelatedMediaById(java.lang.Long id) 
-MediaItems	getRelatedMediaById(java.lang.Long id, Pagination pagination) 
+MediaItems	getMedia(GetMediaRequest request)
+MediaItems	getMedia(GetMediaRequest request, Pagination pagination)
+MediaItems	getMediaByCampaignId(java.lang.Long id)
+MediaItems	getMediaByCampaignId(java.lang.Long id, Pagination pagination)
+MediaItems	getMediaById(java.lang.Long id)
+MediaItems	getMediaByTagId(java.lang.Long id)
+MediaItems	getMediaByTagId(java.lang.Long id, Pagination pagination)
+MediaItems	getMostPopularMediaItems()
+MediaItems	getMostPopularMediaItems(Pagination pagination)
+MediaItems	getRelatedMediaById(java.lang.Long id)
+MediaItems	getRelatedMediaById(java.lang.Long id, Pagination pagination)
 ```
 
 ```
-java.lang.String	getMediaContentById(java.lang.Long id) 
+java.lang.String	getMediaContentById(java.lang.Long id)
 ```
 
 ```
-EmbedCode	getMediaEmbedById(java.lang.Long id) 
-EmbedCode	getMediaEmbedById(java.lang.Long id, EmbedProperties embedProperties) 
+EmbedCode	getMediaEmbedById(java.lang.Long id)
+EmbedCode	getMediaEmbedById(java.lang.Long id, EmbedProperties embedProperties)
 ```
 
 ```
-java.lang.String	getMediaPreviewById(java.lang.Long id) 
-java.lang.String	getMediaPreviewById(java.lang.Long id, ImageProperties imageProperties) 
+java.lang.String	getMediaPreviewById(java.lang.Long id)
+java.lang.String	getMediaPreviewById(java.lang.Long id, ImageProperties imageProperties)
 ```
 
 ```
-Ratings	getMediaRatingsById(java.lang.Long id) 
+Ratings	getMediaRatingsById(java.lang.Long id)
 ```
 
 ```
-SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id) 
-SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id, SyndicateProperties syndicateProperties) 
+SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id)
+SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id, SyndicateProperties syndicateProperties)
 ```
 
 ```
-YoutubeMetadata		getMediaYoutubeMetaDataById(java.lang.Long id) 
+YoutubeMetadata		getMediaYoutubeMetaDataById(java.lang.Long id)
 ```
 
-#### Sources 
+#### Sources
 
 ```
-Sources	getSourceById(java.lang.Long id) 
-Sources	getSources() 
-Sources	getSources(Pagination pagination) 
+Sources	getSourceById(java.lang.Long id)
+Sources	getSources()
+Sources	getSources(Pagination pagination)
 ```
 
 #### Tags
 
 ```
-Tags getTagById(java.lang.Long id) 
+Tags getTagById(java.lang.Long id)
 ```
 
 ```
-TagLists	getTags(GetTagsRequest request) 
-TagLists	getTags(GetTagsRequest request, Pagination pagination) 
-TagTypes getTagTypes() 
+TagLists	getTags(GetTagsRequest request)
+TagLists	getTags(GetTagsRequest request, Pagination pagination)
+TagTypes getTagTypes()
 ```
 
+---
 ## Other Resources
 
 Other SDKs are available for the HHS Media Services API. They can be found at the links below:
@@ -215,6 +216,7 @@ Other SDKs are available for the HHS Media Services API. They can be found at th
 
 https://bitbucket.org/ctacdevteam/syndicationsdk_php
 
+---
 ## Getting Help
 
 For any API or SDK questions or to leave feedback, please contact [syndication@ctacorp.com](mailto:syndication@ctacorp.com)
