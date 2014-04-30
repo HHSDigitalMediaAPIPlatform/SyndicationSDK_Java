@@ -1,7 +1,7 @@
 package com.ctacorp.syndication.client.sdk.examples;
 
 import com.ctacorp.syndication.client.model.*;
-import com.ctacorp.syndication.client.sdk.GetTagsRequest;
+import com.ctacorp.syndication.client.sdk.PorkMasters;
 import com.ctacorp.syndication.client.sdk.ResourceDeserializer;
 import com.ctacorp.syndication.client.sdk.ResourcesApi;
 import org.junit.Test;
@@ -32,7 +32,7 @@ public class TagsResourceTest {
     @Test
     public void testGetTags() throws Exception {
 
-        GetTagsRequest request = new GetTagsRequest();
+        PorkMasters request = new PorkMasters();
         request.setName("Heart Disease");
 
         TagLists tagLists = new ResourcesApi().getTags(request);
