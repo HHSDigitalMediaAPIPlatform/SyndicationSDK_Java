@@ -21,11 +21,6 @@ sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
 def clientJar = file('libs/syndication-java-client-v2-beta.jar')
-def sdkPackages = "com.ctacorp.syndication.client.api com.ctacorp.syndication.client.model com.ctacorp.syndication.client.common com.ctacorp.syndication.client.api com.ctacorp.syndication.client.sdk"
-def clientSourcesZipFile = file('libs/syndication-java-client-v2-beta-sources.jar')
-def clientSourcesOutputDir = file('generated/syndication-java-client-v2-beta-sources')
-def javadocsScript = file('generated/javadocs.sh')
-def sdkJavadocOutputDir = file('generated/syndication-java-sdk-v2-beta-javadoc')
 
 dependencies {
 
@@ -48,10 +43,23 @@ dependencies {
     compile 'joda-time:joda-time:2.3'
 }
 
+def clientSourcesZipFile = file('libs/syndication-java-client-v2-beta-sources.jar')
+def clientSourcesOutputDir = file('generated/syndication-java-client-v2-beta-sources')
+
 task unpackClientSources(type: Copy) {
     from zipTree(clientSourcesZipFile)
     into clientSourcesOutputDir
 }
+
+def sdkPackages =
+    "com.ctacorp.syndication.client.api " +
+    "com.ctacorp.syndication.client.model " +
+    "com.ctacorp.syndication.client.common " +
+    "com.ctacorp.syndication.client.api " +
+    "com.ctacorp.syndication.client.sdk"
+
+def javadocsScript = file('generated/javadocs.sh')
+def sdkJavadocOutputDir = file('generated/syndication-java-sdk-v2-beta-javadoc')
 
 task javadocs(type:Exec, dependsOn: ['unpackClientSources']) {
 

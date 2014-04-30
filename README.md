@@ -1,17 +1,19 @@
 # HHS Media Services API - JAVA SDK
 
-**Version Information**
+---
+####Version Information####
 
 ```
-SDK Distribution: v2-alpha
+SDK Distribution: v2-beta
 HHS Media Services API: v2
-Java: 1.7.0_51
-Gradle: 1.11
+Java: 1.7.0_55
+Gradle: 1.12
 ```
 ---
 
 [TOC]
 
+---
 ## About
 
 This SDK provides the utility classes, example code, and documentation tools to build a Java REST client for the HHS Media Services API.
@@ -27,8 +29,8 @@ The SDK uses [Gradle](http://www.gradle.org) as its build tool, but you do not n
 ## Installation
 
 ```sh
-unzip syndication-java-sdk-v2-alpha.zip
-cd syndication-java-sdk-v2-alpha
+unzip syndication-java-sdk-v2-beta.zip
+cd syndication-java-sdk-v2-beta
 ./gradlew build
 ```
 
@@ -37,15 +39,23 @@ The last command compiles the source, executes the example Junit tests and build
 ---
 ## Using the SDK
 
-### API Documentation
+### Documentation
 
-The SDK includes offline API documentation for convenience, but you are encouraged to use the live interactive [Swagger](https://helloreverb.com/developers/swagger) documentation available on the [HHS Media Services API](http://ctacdev.com:8090/Syndication). The offline [documentation](API_DOCS.md) is included in the root of the SDK distribution.
+You are encouraged to use the live interactive [Swagger](https://helloreverb.com/developers/swagger) documentation available on the [HHS Media Services API](http://ctacdev.com:8090/Syndication). It provides a convenient UI for testing the REST operations as well as the documentation for the production version of the HHS Media Services API.
+
+Offline Javadocs can be found at [generated/syndication-java-sdk-v2-beta-javadoc/index.html](generated/syndication-java-sdk-v2-beta-javadoc/index.html). To regenerate the Javadocs, just run the following gradle tasks:
+
+```sh
+./gradlew clean build -x test javadocs
+```
+
+The last command rebuilds the project and the Javadocs while skipping the tests.
 
 ### Included libraries
 
-The Gradle build tool will automatically download the dependencies needed by the SDK, with the exception of the *com.ctacorp.syndication:syndication-java-client:v2*. This library is included in [libs](libs) folder.
+The Gradle build tool will automatically download the dependencies needed by the SDK, with the exception of the auto-generated REST client library (*com.ctacorp.syndication:syndication-java-client:v2*) that is included in [libs](libs) folder.
 
-*syndication-java-client* is the REST client library that is auto-generated using the [swagger-codegen](https://github.com/wordnik/swagger-codegen) project, and is based on the the HHS Media Services API's Swagger [specification](http://ctacdev.com:8090/Syndication/swagger/api). *syndication-java-client* can be used independently of the SDK to create a REST client, however the auto-generated code is not always developer friendly. The SDK wraps the *syndication-java-client* client API to make it easier to use.
+*syndication-java-client* is the REST client library that is auto-generated using the [swagger-codegen](https://github.com/wordnik/swagger-codegen) project, and is based on the the HHS Media Services API's Swagger [specification](http://ctacdev.com:8090/Syndication/swagger/api). *syndication-java-client* can be used independently of the SDK to create a REST client, however the auto-generated code is sometimes not always developer friendly. The SDK wraps the *syndication-java-client* client API to make it easier to use.
 
 ### Test Cases and Examples
 
@@ -55,11 +65,11 @@ Included in the SDK are several Junit tests that are intended to serve as code e
 
 By default, the HHS Media Services API's base URL is set to [http://ctacdev.com:8090/Syndication/api/v2](http://ctacdev.com:8090/Syndication/api/v2). To change it, open [src/main/resources/sdk.properties](src/main/resources/sdk.properties), and set the `api.base.url` property to the correct value.
 
-### Client API
-
-The following example illustrates how to use the SDK's REST client interface:
+### Simple Example
 
 ```java
+package com.ctacorp.syndication.client.sdk.examples;
+
 import com.ctacorp.syndication.client.common.ApiException;
 import com.ctacorp.syndication.client.model.Campaign;
 import com.ctacorp.syndication.client.model.Campaigns;
@@ -67,9 +77,11 @@ import com.ctacorp.syndication.client.sdk.ResourcesApi;
 import com.ctacorp.syndication.client.sdk.Pagination;
 
 import java.util.List;
+import org.junit.Test;
 
-public class Test {
+public class ReadmeExample {
 
+    @Test
     public void testIt() {
 
         ResourcesApi resourcesApi = new ResourcesApi();
@@ -98,94 +110,111 @@ public class Test {
 }
 ```
 
-##### Available Client API Methods
+### Pagination
 
+Many of the HHS Media Services API's resources can be retrieved using pagination. See [PaginationTest.java](src/test/java/com/ctacorp/syndication/client/sdk/examples/PaginationTest.java) for a more detailed example of how to use pagination.
 
-`com.ctacorp.syndication.client.sdk.ResourcesApi`
-```java
-	Campaigns getCampaignById(Long id)
+### API Calls by Resource Type
 
-	Campaigns getCampaigns()
+#### Resources
 
-	Campaigns getCampaigns(Pagination pagination)
+```
+Resources	getResources(java.lang.String query) 
+```
 
-	Languages getLanguageById(Long id)
+#### Languages
 
-	Languages getLanguages()
+```
+Languages	getLanguages() 
+Languages	getLanguages(Pagination pagination) 
+```
 
-	Languages getLanguages(Pagination pagination)
+#### Campaigns
 
-	String getMediaContentById(Long id)
+```
+Campaigns	getCampaignById(java.lang.Long id) 
+Campaigns	getCampaigns() 
+Campaigns	getCampaigns(Pagination pagination) 
+```
 
-	String getMediaPreviewById(Long id)
+#### Media
 
-	String getMediaPreviewById(Long id, ImageProperties imageProperties)
+```
+MediaItems	searchMedia(java.lang.String query) 
+MediaItems	searchMedia(java.lang.String query, Pagination pagination) 
+```
 
-	EmbedCode getMediaEmbedById(Long id)
+```
+MediaItems	getMedia(GetMediaRequest request) 
+MediaItems	getMedia(GetMediaRequest request, Pagination pagination) 
+MediaItems	getMediaByCampaignId(java.lang.Long id) 
+MediaItems	getMediaByCampaignId(java.lang.Long id, Pagination pagination) 
+MediaItems	getMediaById(java.lang.Long id) 
+MediaItems	getMediaByTagId(java.lang.Long id) 
+MediaItems	getMediaByTagId(java.lang.Long id, Pagination pagination) 
+MediaItems	getMostPopularMediaItems() 
+MediaItems	getMostPopularMediaItems(Pagination pagination) 
+MediaItems	getRelatedMediaById(java.lang.Long id) 
+MediaItems	getRelatedMediaById(java.lang.Long id, Pagination pagination) 
+```
 
-	EmbedCode getMediaEmbedById(Long id, EmbedProperties embedProperties)
+```
+java.lang.String	getMediaContentById(java.lang.Long id) 
+```
 
-	Ratings getMediaRatingsById(Long id)
+```
+EmbedCode	getMediaEmbedById(java.lang.Long id) 
+EmbedCode	getMediaEmbedById(java.lang.Long id, EmbedProperties embedProperties) 
+```
 
-	SyndicatedMediaItems getMediaSyndicateById(Long id)
+```
+java.lang.String	getMediaPreviewById(java.lang.Long id) 
+java.lang.String	getMediaPreviewById(java.lang.Long id, ImageProperties imageProperties) 
+```
 
-	SyndicatedMediaItems getMediaSyndicateById(Long id, SyndicateProperties syndicateProperties)
+```
+Ratings	getMediaRatingsById(java.lang.Long id) 
+```
 
-	MediaTypes getMediaTypes()
+```
+SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id) 
+SyndicatedMediaItems	getMediaSyndicateById(java.lang.Long id, SyndicateProperties syndicateProperties) 
+```
 
-	YoutubeMetadata getMediaYoutubeMetaDataById(Long id)
+```
+YoutubeMetadata		getMediaYoutubeMetaDataById(java.lang.Long id) 
+```
 
-	MediaItems getMostPopularMediaItems()
+#### Sources 
 
-	MediaItems getMostPopularMediaItems(Pagination pagination)
+```
+Sources	getSourceById(java.lang.Long id) 
+Sources	getSources() 
+Sources	getSources(Pagination pagination) 
+```
 
-	MediaItems getRelatedMediaById(Long id)
+#### Tags
 
-	MediaItems getRelatedMediaById(Long id, Pagination pagination)
+```
+Tags getTagById(java.lang.Long id) 
+```
 
-	MediaItems searchMedia(String query)
-
-	MediaItems searchMedia(String query, Pagination pagination)
-
-	MediaItems getMediaById(Long id)
-
-	MediaItems getMedia(GetMediaRequest request)
-
-	MediaItems getMedia(GetMediaRequest request, Pagination pagination)
-
-	MediaItems getMediaByCampaignId(Long id)
-
-	MediaItems getMediaByCampaignId(Long id, Pagination pagination)
-
-	MediaItems getMediaByTagId(Long id)
-
-	MediaItems getMediaByTagId(Long id, Pagination pagination)
-
-	Resources getResources(String query)
-
-	Sources getSourceById(Long id)
-
-	Sources getSources()
-
-	Sources getSources(Pagination pagination)
-
-	Tags getTagById(Long id)
-
-	TagTypes getTagTypes()
-
-	TagLists getTags(GetTagsRequest request)
-
-	TagLists getTags(GetTagsRequest request, Pagination pagination)
-
-	TagLists getRelatedTagsById(Long id)
-
-	TagLists getRelatedTagsById(Long id, Pagination pagination)
-
-	void setBasePath(String basePath)
-
-	void setPagination(Pagination pagination)
+```
+TagLists	getTags(GetTagsRequest request) 
+TagLists	getTags(GetTagsRequest request, Pagination pagination) 
+TagTypes getTagTypes() 
 ```
 
 ## Other Resources
 
+Other SDKs are available for the HHS Media Services API. They can be found at the links below:
+
+* [Javascript](https://bitbucket.org/ctacdevteam/syndicationsdk_js)
+* [PHP](https://bitbucket.org/ctacdevteam/syndicationsdk_php)
+* [Objective C](https://bitbucket.org/ctacdevteam/syndicationsdk_objectivec)
+
+https://bitbucket.org/ctacdevteam/syndicationsdk_php
+
 ## Getting Help
+
+For any API or SDK questions or to leave feedback, please contact [syndication@ctacorp.com](mailto:syndication@ctacorp.com)
