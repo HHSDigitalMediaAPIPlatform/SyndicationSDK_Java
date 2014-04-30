@@ -31,7 +31,7 @@ The SDK uses [Gradle](http://www.gradle.org) as its build tool, but you do not n
 ```sh
 unzip syndication-java-sdk-v2-beta.zip
 cd syndication-java-sdk-v2-beta
-./gradlew build
+./gradlew javadocs build
 ```
 
 The last command compiles the source, executes the example Junit tests and builds a JAR file that you use in your own application. See the next section for further information.
@@ -46,7 +46,7 @@ You are encouraged to use the live interactive [Swagger](https://helloreverb.com
 Offline Javadocs can be found at [generated/syndication-java-sdk-v2-beta-javadoc/index.html](generated/syndication-java-sdk-v2-beta-javadoc/index.html). To regenerate the Javadocs, just run the following gradle tasks:
 
 ```sh
-./gradlew clean build -x test javadocs
+./gradlew clean javadocs
 ```
 
 The last command rebuilds the project and the Javadocs while skipping the tests.
@@ -213,8 +213,6 @@ Other SDKs are available for the HHS Media Services API. They can be found at th
 * [Javascript](https://bitbucket.org/ctacdevteam/syndicationsdk_js)
 * [PHP](https://bitbucket.org/ctacdevteam/syndicationsdk_php)
 * [Objective C](https://bitbucket.org/ctacdevteam/syndicationsdk_objectivec)
-
-https://bitbucket.org/ctacdevteam/syndicationsdk_php
 
 ---
 ## Getting Help
