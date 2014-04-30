@@ -1,6 +1,6 @@
 package com.ctacorp.syndication.client.sdk;
 
-public class PorkMasters {
+public class GetTagsRequest {
 
     private String name;
     private String nameContains;

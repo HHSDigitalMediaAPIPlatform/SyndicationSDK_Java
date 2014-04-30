@@ -66,11 +66,11 @@ public class ResourcesApi {
         return resourcesApi.getTagTypes();
     }
 
-    public TagLists getTags(PorkMasters request, Pagination pagination) throws ApiException {
+    public TagLists getTags(GetTagsRequest request, Pagination pagination) throws ApiException {
         return resourcesApi.getTags(pagination.getSort(), pagination.getMax(), pagination.getOffset(), request.getName(), request.getNameContains(), request.getSyndicationId(), request.getTypeId(), request.getTypeName());
     }
 
-    public TagLists getTags(PorkMasters request) throws ApiException {
+    public TagLists getTags(GetTagsRequest request) throws ApiException {
         return getTags(request, pagination);
     }
 
