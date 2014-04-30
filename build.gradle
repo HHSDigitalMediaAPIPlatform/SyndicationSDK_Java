@@ -15,21 +15,23 @@ repositories {
 task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
-
-task javadocs(type: Javadoc) {
-    source = sourceSets.main.allJava
-}
-
 //noinspection GroovyUnusedAssignment
 sourceCompatibility = 1.6
 //noinspection GroovyUnusedAssignment
 targetCompatibility = 1.6
 
+def clientJar = file('libs/syndication-java-client-v2-beta.jar')
+def sdkPackages = "com.ctacorp.syndication.client.api com.ctacorp.syndication.client.model com.ctacorp.syndication.client.common com.ctacorp.syndication.client.api com.ctacorp.syndication.client.sdk"
+def clientSourcesZipFile = file('libs/syndication-java-client-v2-beta-sources.jar')
+def clientSourcesOutputDir = file('generated/syndication-java-client-v2-beta-sources')
+def javadocsScript = file('generated/javadocs.sh')
+def sdkJavadocOutputDir = file('generated/syndication-java-sdk-v2-beta-javadoc')
+
 dependencies {
 
     testCompile 'junit:junit:4.11'
 
-    compile fileTree(dir: 'libs', include: '*.jar')
+    compile fileTree(clientJar)
 
     compile 'com.googlecode.json-simple:json-simple:1.1'
     compile 'commons-io:commons-io:2.4'
@@ -44,4 +46,30 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-databind:2.1.4'
     compile 'com.fasterxml.jackson.datatype:jackson-datatype-joda:2.1.5'
     compile 'joda-time:joda-time:2.3'
+}
+
+task unpackClientSources(type: Copy) {
+    from zipTree(clientSourcesZipFile)
+    into clientSourcesOutputDir
+}
+
+task javadocs(type:Exec, dependsOn: ['unpackClientSources']) {
+
+    def classpath = ""
+    configurations.compile.each { File file ->
+        classpath += ":${file.absolutePath}"
+    }
+
+    def javadocCommand = "javadoc -protected -splitindex ${sdkPackages} -sourcepath \"src/main/java:${clientSourcesOutputDir.getAbsolutePath()}\" -classpath ${classpath.substring(1)} -d ${sdkJavadocOutputDir.getAbsolutePath()}"
+
+    file('generated').mkdir()
+    javadocsScript.write javadocCommand
+    javadocsScript.setExecutable(true)
+
+    workingDir '.'
+    commandLine "${javadocsScript.absolutePath}"
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        logger.info "Executed command: ${standardOutput.toString()}"
+    }
 }
