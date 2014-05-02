@@ -1,7 +1,7 @@
 project.group = "com.ctacorp.syndication"
 //noinspection GrUnresolvedAccess
 project.ext.archivesBaseName = "syndication-java-sdk"
-project.version = "v2-alpha"
+project.version = "v2-beta"
 
 apply plugin: 'distribution'
 apply plugin: 'idea'
@@ -13,7 +13,7 @@ repositories {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
+    gradleVersion = '1.12'
 }
 //noinspection GroovyUnusedAssignment
 sourceCompatibility = 1.6
