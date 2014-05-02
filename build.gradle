@@ -1,7 +1,7 @@
 project.group = "com.ctacorp.syndication"
 //noinspection GrUnresolvedAccess
 project.ext.archivesBaseName = "syndication-java-sdk"
-project.version = "v2-beta"
+project.version = "v2-beta-dist"
 
 apply plugin: 'distribution'
 apply plugin: 'idea'
@@ -79,5 +79,19 @@ task javadocs(type:Exec, dependsOn: ['unpackClientSources']) {
     standardOutput = new ByteArrayOutputStream()
     ext.output = {
         logger.info "Executed command: ${standardOutput.toString()}"
+    }
+}
+
+distributions {
+    main {
+        baseName = 'syndication-java-sdk'
+        contents {
+            from('.') {
+                include 'build.gradle', 'gradle.properties', 'gradlew', 'gradlew.bat', 'README.md'
+            }
+            from('.') {
+                include 'src/**/*', 'libs/**/*', 'gradle**/*'
+            }
+        }
     }
 }

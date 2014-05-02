@@ -33,7 +33,7 @@ public class TagsResourceTest {
     public void testGetTags() throws Exception {
 
         GetTagsRequest request = new GetTagsRequest();
-        request.setName("Heart Disease");
+        request.setName("Secondhand Smoke");
 
         TagLists tagLists = new ResourcesApi().getTags(request);
         assertNotNull(tagLists);
